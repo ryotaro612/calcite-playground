@@ -22,6 +22,7 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation("org.apache.calcite:calcite-core:1.36.0")
 }
 
 testing {

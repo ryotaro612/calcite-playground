@@ -23,6 +23,8 @@ dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
     implementation("org.apache.calcite:calcite-core:1.36.0")
+    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+    implementation("com.mysql:mysql-connector-j:8.3.0")
 }
 
 testing {
@@ -44,5 +46,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass = "dev.ryotaro.calcite.playground.AppKt"
 }

@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "defaultSchema": "user",
+  "schemas": [
+    {
+      "name": "user",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcDriver": "com.mysql.jdbc.Driver",
+        "jdbcUrl": "jdbc:mysql://localhost/user",
+        "jdbcUser": "root",
+        "jdbcPassword": "root"
+      }
+    }
+  ]
+}
